@@ -1,0 +1,483 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Querencia</title>
+    <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" href="./css/fontawesome-free-6.5.2-web/css/all.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="path/to/owl.carousel.min.css">
+    <link rel="stylesheet" href="path/to/owl.theme.default.min.css">
+    <script src="path/to/owl.carousel.min.js"></script>
+
+</head>
+
+<body>
+    <header class="header">
+        <div class="head"></div>
+        <div class="toggle-switch">
+            <input type="checkbox" id="darkModeToggle" class="checkbox">
+            <label for="darkModeToggle" class="label">
+                <i class="fas fa-sun"></i>
+                <i class="fas fa-moon"></i>
+                <div class="ball"></div>
+            </label>
+            <div class="category">
+                <input type="checkbox" name="menu" id="bar_menu">
+                <label for="bar_menu" class="menu_bar"><i class="fa-solid fa-bars"></i></label>
+
+                <div class="menu">
+                    <div class="menu_head"></div>
+                    <div class="menu_gnb"></div>
+                    <div class="menu_detail"></div>
+                </div>
+            </div>
+        </div>
+        <div class="header_txt">
+            <span><i class="fa-solid fa-magnifying-glass"></i></span>
+            <span><i class="fa-solid fa-cart-shopping"></i></span>
+        </div>
+    </header>
+
+    <section class="main">
+        <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide"><img src="./img/m_main_banner.jpg" alt="메인배너1"></div>
+                <div class="swiper-slide"><img src="./img/m_main_banner02.jpg" alt="메인배너2"></div>
+            </div>
+            <div class="swiper-pagination"></div>
+        </div>
+    </section>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="js/index.js"></script>
+
+    <section class="gnb_outer">
+        <nav class="gnb">
+            <span class="signature">시그니처</span>
+            <span>커피</span>
+            <span>시럽</span>
+            <span>소스</span>
+            <span>디저트</span>
+            <span>캡슐커피</span>
+            <span>파우더</span>
+            <span>티(TEA)</span>
+            <span>스프레드</span>
+            <span>MD</span>
+        </nav>
+    </section>
+
+    <section class="guide">
+        <div class="best_txt">
+            <p>케렌시아 커피 가이드 💕</p>
+        </div>
+        <div class="guide_box">
+            <ul>
+                <li class="guide_new total"><img src="./img/new_coffee_on.jpg" alt=""></li>
+                <li class="guide_luv total"><img src="./img/coffee_life_on.jpg" alt=""></li>
+                <li class="guide_life total"><img src="./img/coffee_daily_on.jpg" alt=""></li>
+                <li class="guide_mania total"><img src="./img/mania_on.jpg" alt=""></li>
+            </ul>
+        </div>
+
+
+        <div class="new_box guide_tag">
+            <div class="box_head">
+                <span>커피 입문자</span>
+                <span class="return"><i class="fa-solid fa-arrow-rotate-left"></i></span>
+            </div>
+            <div class="box_item">
+                <div class="item_int">
+                    <input type="radio" name="bean" id="bean">
+                    <label for="bean">원두</label>
+                    <input type="radio" name="bean" id="grinder">
+                    <label for="grinder">그라인더</label>
+                    <input type="radio" name="bean" id="dripper">
+                    <label for="dripper">드리퍼</label>
+                    <input type="radio" name="bean" id="introduce">
+                    <label for="introduce">가이드</label>
+                </div>
+
+                <div class="list_box A">
+                    <div class="photo_box"><img src="./img/가이드/new_bean.jpg" alt=""></div>
+                    <div class="list_info">
+                        <p>케렌시아 블렌딩 원두 100g</p>
+                        <p style="font-size: 32px; margin-top: 30px;">콜롬비아, 브라질, 니카라과 원두가 적절하게 블렌딩 된, 케렌시아가 선보이는 훌륭한 밸런스의 풀시티 로스팅 원두</p>
+                        <p style="margin-top: 50px; font-size: 48px;">11,000원</p>
+                    </div>
+                </div>
+                <div class="list_box B">
+                    <div class="photo_box"><img src="./img/가이드/new_grinder.jpg" alt=""></div>
+                    <div class="list_info">
+                        <p>리큅 커피 그라인더 LCG-C2001BK</p>
+                        <p style="font-size: 32px; margin-top: 30px;">자동 그라인더로 편리하게 분쇄가 가능한, 케렌시아가 추천해드리는 상품! 더 나은 커피 라이프를 위하여!</p>
+                        <p style="margin-top: 50px; font-size: 48px;">79,000원</p>
+                    </div>
+                </div>
+                <div class="list_box C">
+                    <div class="photo_box"><img src="./img/가이드/new_dripeer.jpg" alt=""></div>
+                    <div class="list_info">
+                        <p>하리오 페가수스 드리퍼 02 PED-02-T</p>
+                        <p style="font-size: 32px; margin-top: 30px;">오랜 역사를 지닌 하리오가 선보이는 커피 드리퍼, 쉽게 사용 가능한 디자인.</p>
+                        <p style="margin-top: 50px; font-size: 48px;">11,000원</p>
+                    </div>
+                </div>
+                <div class="list_box D">
+                    <div class="photo_box"><img src="./img/circle_logo.png" alt=""></div>
+                    <div class="list_info">
+                        <p>해당 부분은 테스트 중입니다.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="luv_box guide_tag">
+            <div class="box_head">
+                <span>커피 새내기</span>
+                <span class="return"><i class="fa-solid fa-arrow-rotate-left"></i></span>
+            </div>
+            <div class="box_item">
+                <div class="item_int">
+                    <input type="radio" name="bean" id="bean">
+                    <label for="bean">원두</label>
+                    <input type="radio" name="bean" id="grinder">
+                    <label for="grinder">그라인더</label>
+                    <input type="radio" name="bean" id="dripper">
+                    <label for="dripper">드리퍼</label>
+                    <input type="radio" name="bean" id="introduce">
+                    <label for="introduce">가이드</label>
+                </div>
+
+                <div class="list_box A">
+                    <div class="photo_box"><img src="./img/가이드/new_bean.jpg" alt=""></div>
+                    <div class="list_info">
+                        <p>케렌시아 블렌딩 원두 100g</p>
+                        <p style="font-size: 32px; margin-top: 30px;">콜롬비아, 브라질, 니카라과 원두가 적절하게 블렌딩 된, 케렌시아가 선보이는 훌륭한 밸런스의 풀시티 로스팅 원두</p>
+                        <p style="margin-top: 50px; font-size: 48px;">11,000원</p>
+                    </div>
+                </div>
+                <div class="list_box B">
+                    <div class="photo_box"><img src="./img/가이드/new_grinder.jpg" alt=""></div>
+                    <div class="list_info">
+                        <p>리큅 커피 그라인더 LCG-C2001BK</p>
+                        <p style="font-size: 32px; margin-top: 30px;">자동 그라인더로 편리하게 분쇄가 가능한, 케렌시아가 추천해드리는 상품! 더 나은 커피 라이프를 위하여!</p>
+                        <p style="margin-top: 50px; font-size: 48px;">79,000원</p>
+                    </div>
+                </div>
+                <div class="list_box C">
+                    <div class="photo_box"><img src="./img/가이드/new_dripeer.jpg" alt=""></div>
+                    <div class="list_info">
+                        <p>하리오 페가수스 드리퍼 02 PED-02-T</p>
+                        <p style="font-size: 32px; margin-top: 30px;">오랜 역사를 지닌 하리오가 선보이는 커피 드리퍼, 쉽게 사용 가능한 디자인.</p>
+                        <p style="margin-top: 50px; font-size: 48px;">11,000원</p>
+                    </div>
+                </div>
+                <div class="list_box D">
+                    <div class="photo_box"><img src="./img/circle_logo.png" alt=""></div>
+                    <div class="list_info">
+                        <p>해당 부분은 테스트 중입니다.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="life_box guide_tag">
+            <div class="box_head">
+                <span>커피가 일상</span>
+                <span class="return"><i class="fa-solid fa-arrow-rotate-left"></i></span>
+            </div>
+            <div class="box_item">
+                <div class="item_int">
+                    <input type="radio" name="bean" id="bean">
+                    <label for="bean">원두</label>
+                    <input type="radio" name="bean" id="grinder">
+                    <label for="grinder">그라인더</label>
+                    <input type="radio" name="bean" id="dripper">
+                    <label for="dripper">드리퍼</label>
+                    <input type="radio" name="bean" id="introduce">
+                    <label for="introduce">가이드</label>
+                </div>
+
+                <div class="list_box A">
+                    <div class="photo_box"><img src="./img/가이드/new_bean.jpg" alt=""></div>
+                    <div class="list_info">
+                        <p>케렌시아 블렌딩 원두 100g</p>
+                        <p style="font-size: 32px; margin-top: 30px;">콜롬비아, 브라질, 니카라과 원두가 적절하게 블렌딩 된, 케렌시아가 선보이는 훌륭한 밸런스의 풀시티 로스팅 원두</p>
+                        <p style="margin-top: 50px; font-size: 48px;">11,000원</p>
+                    </div>
+                </div>
+                <div class="list_box B">
+                    <div class="photo_box"><img src="./img/가이드/new_grinder.jpg" alt=""></div>
+                    <div class="list_info">
+                        <p>리큅 커피 그라인더 LCG-C2001BK</p>
+                        <p style="font-size: 32px; margin-top: 30px;">자동 그라인더로 편리하게 분쇄가 가능한, 케렌시아가 추천해드리는 상품! 더 나은 커피 라이프를 위하여!</p>
+                        <p style="margin-top: 50px; font-size: 48px;">79,000원</p>
+                    </div>
+                </div>
+                <div class="list_box C">
+                    <div class="photo_box"><img src="./img/가이드/new_dripeer.jpg" alt=""></div>
+                    <div class="list_info">
+                        <p>하리오 페가수스 드리퍼 02 PED-02-T</p>
+                        <p style="font-size: 32px; margin-top: 30px;">오랜 역사를 지닌 하리오가 선보이는 커피 드리퍼, 쉽게 사용 가능한 디자인.</p>
+                        <p style="margin-top: 50px; font-size: 48px;">11,000원</p>
+                    </div>
+                </div>
+                <div class="list_box D">
+                    <div class="photo_box"><img src="./img/circle_logo.png" alt=""></div>
+                    <div class="list_info">
+                        <p>해당 부분은 테스트 중입니다.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="mania_box guide_tag">
+            <div class="box_head">
+                <span>커피 마니아</span>
+                <span class="return"><i class="fa-solid fa-arrow-rotate-left"></i></span>
+            </div>
+            <div class="box_item">
+                <div class="item_int">
+                    <input type="radio" name="bean" id="bean">
+                    <label for="bean">원두</label>
+                    <input type="radio" name="bean" id="grinder">
+                    <label for="grinder">그라인더</label>
+                    <input type="radio" name="bean" id="dripper">
+                    <label for="dripper">드리퍼</label>
+                    <input type="radio" name="bean" id="introduce">
+                    <label for="introduce">가이드</label>
+                </div>
+
+                <div class="list_box A">
+                    <div class="photo_box"><img src="./img/가이드/new_bean.jpg" alt=""></div>
+                    <div class="list_info">
+                        <p>케렌시아 블렌딩 원두 100g</p>
+                        <p style="font-size: 32px; margin-top: 30px;">콜롬비아, 브라질, 니카라과 원두가 적절하게 블렌딩 된, 케렌시아가 선보이는 훌륭한 밸런스의 풀시티 로스팅 원두</p>
+                        <p style="margin-top: 50px; font-size: 48px;">11,000원</p>
+                    </div>
+                </div>
+                <div class="list_box B">
+                    <div class="photo_box"><img src="./img/가이드/new_grinder.jpg" alt=""></div>
+                    <div class="list_info">
+                        <p>리큅 커피 그라인더 LCG-C2001BK</p>
+                        <p style="font-size: 32px; margin-top: 30px;">자동 그라인더로 편리하게 분쇄가 가능한, 케렌시아가 추천해드리는 상품! 더 나은 커피 라이프를 위하여!</p>
+                        <p style="margin-top: 50px; font-size: 48px;">79,000원</p>
+                    </div>
+                </div>
+                <div class="list_box C">
+                    <div class="photo_box"><img src="./img/가이드/new_dripeer.jpg" alt=""></div>
+                    <div class="list_info">
+                        <p>하리오 페가수스 드리퍼 02 PED-02-T</p>
+                        <p style="font-size: 32px; margin-top: 30px;">오랜 역사를 지닌 하리오가 선보이는 커피 드리퍼, 쉽게 사용 가능한 디자인.</p>
+                        <p style="margin-top: 50px; font-size: 48px;">11,000원</p>
+                    </div>
+                </div>
+                <div class="list_box D">
+                    <div class="photo_box"><img src="./img/circle_logo.png" alt=""></div>
+                    <div class="list_info">
+                        <p>해당 부분은 테스트 중입니다.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <script src="js/index.js"></script>
+    </section>
+
+    <section class="review">
+        <div class="gud_txt">
+            <p>고객들의 홈카페 리뷰 💕</p>
+        </div>
+        <div class="review_img01">
+            <img src="./img/review01.png" alt="리뷰이미지">
+        </div>
+
+        <div class="review_img02">
+            <img src="./img/review02.png" alt="리뷰이미지">
+        </div>
+        <div class="more">
+            <p>더 보러가기</p>
+        </div>
+    </section>
+
+    <section class="best_item">
+        <div class="best_txt">
+            <p>BEST ITEM💕</p>
+        </div>
+        <div class="item_sett">
+            <ul class="item_box">
+                <li class="item_img">
+                    <img src="./img/best_img02_rosted.jpg" alt="다빈치헤이즐넛">
+                </li>
+                <li class="item_name">다빈치 로스티드 아몬드 750ml</li>
+                <li class="item_price">12,800원</li>
+            </ul>
+            <ul class="item_box">
+                <li class="item_img">
+                    <img src="./img/best_img01_brazil.jpg" alt="브라질">
+                </li>
+                <li class="item_name">브라질 파젠다 엄 문도노보 내추럴 싱글오리진 200g</li>
+                <li class="item_price">7,000원</li>
+            </ul>
+            <ul class="item_box item_btm">
+                <li class="item_img">
+                    <img src="./img/best_img03_bialleti.jpg" alt="비알레띠">
+                </li>
+                <li class="item_name">비알레띠 모카 익스프레스 레드 2컵</li>
+                <li class="item_price">52,800원</li>
+            </ul>
+            <ul class="item_box item_btm">
+                <li class="item_img">
+                    <img src="./img/best_img04_elco.jpg" alt="머신">
+                </li>
+                <li class="item_name">바리아 그라인더 VS3 화이트 2세대</li>
+                <li class="item_price">532,000원</li>
+            </ul>
+        </div>
+        <div class="more">
+            <p>더 보러가기</p>
+        </div>
+    </section>
+
+
+    <section class="best_item">
+        <div class="best_txt">
+            <p>NEW ITEM💕</p>
+        </div>
+        <div class="item_sett">
+            <ul class="item_box">
+                <li class="item_img">
+                    <img src="./img/new_img01_sauce.jpg" alt="기라델리카라멜">
+                </li>
+                <li class="item_name">기라델리 카라멜소스 2.47kg</li>
+                <li class="item_price">27,200원</li>
+            </ul>
+            <ul class="item_box">
+                <li class="item_img">
+                    <img src="./img/new_img02_dripper.jpg" alt="사이폰">
+                </li>
+                <li class="item_name">하리오 사이폰 TCA-3 (실버)</li>
+                <li class="item_price">89,000원</li>
+            </ul>
+            <ul class="item_box item_btm">
+                <li class="item_img">
+                    <img src="./img/new_img03_syrup.jpg" alt="다빈치헤이즐넛">
+                </li>
+                <li class="item_name">다빈치 헤이즐넛 시럽 750ml</li>
+                <li class="item_price">12,300원</li>
+            </ul>
+            <ul class="item_box item_btm">
+                <li class="item_img">
+                    <img src="./img/new_img04_syrup.jpg" alt="머신">
+                </li>
+                <li class="item_name">SHOTT 헤이즐넛향 시럽 750ml</li>
+                <li class="item_price">16,000원</li>
+            </ul>
+            <div class="more">
+                <p>더 보러가기</p>
+            </div>
+        </div>
+    </section>
+
+    <div class="sub_banner">
+        <img src="./img/sub_banner.jpg" alt="서브배너">
+    </div>
+
+    <section class="with">
+        <div class="with_txt">
+            <p>QUERENCIA WITH</p>
+        </div>
+        <div class="with_box">
+            <div class="with_img">
+                <img src="./img/curaso_img.png" alt="큐라소">
+            </div>
+            <ul class="with_textbox">
+                <li class="ment">1883 여름시럽 2종</li>
+                <li class="event">증정 이벤트</li>
+                <li class="recipe">1883 레시피 보러가기</li>
+            </ul>
+            <div class="with_slide" id="owl_banner">
+                <img src="./img/slide_img01.jpg" alt="슬라이드">
+                <img src="./img/slide_img02.png" alt="슬라이드">
+                <img src="./img/slide_img03.png" alt="슬라이드">
+                <img src="./img/slide_img04.png" alt="슬라이드">
+            </div>
+        </div>
+        <script src="js/index.js"></script>
+        <script src="./js/owl.carousel.min.js"></script>
+    </section>
+
+    <section class="video">
+        <div class="video_txt">
+            <p>VIDEO💕</p>
+        </div>
+        <div class="btn_box">
+            <input type="radio" name="level" id="iniziato">
+            <label for="iniziato" class="level_label iniziato_level">초급</label>
+            <input type="radio" name="level" id="medio">
+            <label for="medio" class="level_label medio_level">중급</label>
+            <input type="radio" name="level" id="alto">
+            <label for="alto" class="level_label alto_level">고급</label>
+
+
+            <div class="youtube01">
+                <iframe width="100%" height="530px" style="border-radius: 30px;" src="https://www.youtube.com/embed/GBXsI_wxfRE" title="핸드드립 커피 내리는 법 A to Z  -  초보꿀팁부터 고수꿀팁까지 (자막추가)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+            <div class="youtube02">
+                <iframe width="100%" height="530px" style="border-radius: 30px;" src="https://www.youtube.com/embed/I6UxgSQHmg0?si=b6Otj-N5_0y8AhX2" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+            <div class="youtube03">
+                <iframe width="100%" height="530px" style="border-radius: 30px;" src="https://www.youtube.com/embed/XplwJ0h6xzI" title="[Coffee] 5분안에 배우는 커피도구_Part.1 사이폰 커피 l syphon coffee maker #barista #추출방법" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+        </div>
+
+        <script src="js/index.js"></script>
+    </section>
+
+    <footer class="footer">
+        <div class="footer_text">
+            <p class="pqna">고객문의</p>
+            <p class="pnumber">1544-9542</p>
+            <p>AM 9:30 ~ PM 17:30</p>
+            <p>토, 일, 공휴일 휴무</p>
+            <p>점심시간 : 12:30 ~ 14:00</p>
+        </div>
+        <div class="footer_btn_box">
+            <span>FAQ</span>
+            <span>배송정보</span>
+            <span>PC버전</span>
+        </div>
+        <div class="footer_info">
+            <span>회사소개</span>
+            <span>사업소개</span>
+            <span>채용정보</span>
+            <span>이용약관</span>
+            <span>개인정보처리방침</span>
+        </div>
+        <div class="footer_info02">
+            <p>케렌시아 | 대표 : 이상효</p>
+            <p>본사 : 서울특별시 용산구 이태원로 77번길 (Public Tower) 1023호</p>
+            <p>로스팅 : 경기도 고양시 주엽대로 11번길 - 5</p>
+            <p>통신판매업신고번호 : 2024-서울용산-00123</p>
+            <p>사업자등록번호 : 152-85-01194 사업자정보확인</p>
+            <p>이메일 : mail@querencia.co.kr | 사업자 대량주문 : sale@querencia.co.kr</p>
+            <p>팩스 : 02-9314-5864</p>
+            <p>Copyrightⓒ2023-2024 QUERENCIA Corp. ALL RIGHTS RESERVED</p>
+        </div>
+        <div class="footer_logo"><img src="./img/circle_logo.png" alt=""></div>
+        <div class="footer_sns">
+            <p><i class="fa-brands fa-instagram"></i></p>
+            <p><i class="fa-brands fa-facebook"></i></p>
+            <p><i class="fa-brands fa-square-x-twitter"></i></p>
+            <p><i class="fa-brands fa-youtube"></i></p>
+            <p><i class="fa-solid fa-blog"></i></p>
+        </div>
+    </footer>
+    
+</body>
+
+
+</html>
